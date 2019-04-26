@@ -1,0 +1,23 @@
+{
+  "name": "fibonacci-jest-tests",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "private": true,
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kowalskimariusz/Fibonacci-Jest-Tests.git"
+  },
+  "author": "Mariusz Kowalski",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kowalskimariusz/Fibonacci-Jest-Tests/issues"
+  },
+  "homepage": "https://github.com/kowalskimariusz/Fibonacci-Jest-Tests#readme",
+  "devDependencies": {
+    "jest": "^24.7.1"
+  }
+}
