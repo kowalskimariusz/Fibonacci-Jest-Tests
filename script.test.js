@@ -1,8 +1,8 @@
 const functions_to_test = require('./script');
 const fib = functions_to_test.fib;
 
-test('check if fib(3) = 6',()=>{
-	expect(fib(3)).toBe(6);
+test('check if fib(3) = [0,1,1]',()=>{
+	expect(fib(3)).toEqual([0,1,1]);
 });
 
 test('check if fib with non-numeric argument throws an error',()=>{
