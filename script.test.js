@@ -18,7 +18,7 @@ test('check if fib with number bigger than max array size (2**32-1) argument thr
 });
 
 test('check if fib with non-numeric argument throws an error',()=>{
-	["abc", true, Symbol("z"), [], {}, ()=>{}, new Map(), new Set(), new Error()]
+	["abc", true, Symbol("z"), [], {}, ()=>{}, new Map(), new Set(), new Error(), null, undefined]
 		.forEach(el => expect(()=>fib(el)).toThrowError(TypeError("Argument musi być liczbą")));
 });
 
